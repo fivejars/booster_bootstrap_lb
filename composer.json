@@ -1,0 +1,17 @@
+{
+    "name": "fivejars/booster_bootstrap_lb",
+    "description": "Provides specific overrides for Bootstrap (Radix theme) based Layout Builder.",
+    "type": "drupal-module",
+    "homepage": "https://github.com/fivejars/booster_bootstrap_lb",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "composer/installers": "^2.2",
+        "drupal/gin_lb": "^1.0@RC",
+        "drupal/bootstrap_layout_builder": "^2.1",
+        "drupal/layout_builder_blocks": "^1.1",
+        "drupal/layout_builder_modal": "^1.2"
+    },
+    "extra": {
+        "installer-name": "booster_lb"
+    }
+}
